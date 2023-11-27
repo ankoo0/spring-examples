@@ -7,6 +7,6 @@ public class App {
 
         SecondBean secondBean = applicationContext.getBean("secondBean",SecondBean.class);
         System.out.println(secondBean.getFirstBean().toString());
-        
+
     }
 }
